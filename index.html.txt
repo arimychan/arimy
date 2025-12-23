@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ARK DOMINIO – Tienda por Puntos</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    .tabla {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      background: #111;
+      border-radius: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 1200px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ARK DOMINIO</h1>
+  <p>Tienda por Puntos</p>
+</header>
+
+<div class="tabla">
+  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRdWLI6gvsBFbEznOnRl2yRSTYhpNs38_B2V7-Ki5SEXP5CUB1fDeW4WNhxDCTmiIQlhnerAkIHKt2/pubhtml?widget=true&headers=false"></iframe>
+</div>
+
+</body>
+</html>
