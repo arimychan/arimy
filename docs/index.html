@@ -14,53 +14,40 @@
 
     header {
       text-align: center;
-      padding: 30px 15px;
+      padding: 30px 15px 20px;
     }
 
     header h1 {
-      margin-bottom: 8px;
+      margin-bottom: 6px;
+      font-size: 30px;
     }
 
     header p {
-      margin-top: 0;
-      color: #cccccc;
+      margin: 0;
+      color: #cfcfcf;
       font-size: 15px;
     }
 
-    /* CONTENEDOR PRINCIPAL (MÁS ANCHO) */
+    /* CONTENEDOR CENTRADO (ANCHO JUSTO) */
     .tabla {
       width: 100%;
-      max-width: 1600px;   /* 🔥 MÁS ANCHO */
-      margin: 0 auto;
+      max-width: 1250px;   /* 👈 ANCHO IDEAL */
+      margin: 0 auto 40px;
       padding: 10px;
       background: #111;
-      border-radius: 10px;
+      border-radius: 12px;
       box-sizing: border-box;
-      overflow: hidden;
     }
 
-    /* IFRAME */
     iframe {
       width: 100%;
       height: 900px;
       border: none;
       display: block;
-      transform: scale(0.98); /* casi tamaño real */
-      transform-origin: top center;
     }
 
-    /* CELULARES */
+    /* CELULAR */
     @media (max-width: 768px) {
-      .tabla {
-        padding: 5px;
-      }
-
-      iframe {
-        height: 650px;
-        transform: scale(0.88);
-        transform-origin: top center;
-      }
-
       header h1 {
         font-size: 22px;
       }
@@ -68,12 +55,15 @@
       header p {
         font-size: 14px;
       }
-    }
 
-    /* PANTALLAS MUY GRANDES */
-    @media (min-width: 1800px) {
       .tabla {
-        max-width: 1700px;
+        padding: 6px;
+      }
+
+      iframe {
+        height: 650px;
+        transform: scale(0.9);
+        transform-origin: top center;
       }
     }
   </style>
@@ -94,5 +84,6 @@
 
 </body>
 </html>
+
 
 
